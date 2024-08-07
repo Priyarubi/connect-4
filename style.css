@@ -1,0 +1,39 @@
+body{
+    margin: 20px;
+    padding:0;
+    text-align: center;
+    color: white;
+    background-image: url("img/background..jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#board{
+    height: 540px;
+    width: 630px;
+
+    background-color: pink;
+    border: 10px solid palevioletred;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile{
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid palevioletred;
+}
+
+
+.red-piece{
+    background-color: red;
+}
+
+.blue-piece{
+    background-color:blue;
+}
